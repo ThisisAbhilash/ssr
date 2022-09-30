@@ -1,0 +1,15 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "./",
+    "paths": {
+      "@settings": ["settings.js"],
+      "@utils/*": ["src/server/utils/*"],
+      "@components/*": ["src/client/components/*"],
+      "@services/*": ["src/server/services/*"],
+      "@middlewares/*": ["src/server/middlewares/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
